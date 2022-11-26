@@ -1,1 +1,41 @@
 
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  creationTimestamp: null
+  name: mysql-credentials
+  namespace: default
+spec:
+  encryptedData:
+    connection: AgCarWeoTqKjPOait81KDUlxjGSyCoXFGOa3rEGJMkGbcym/O411rIOJk6eCkh0Et4Wi59dYIS0doan
+RlrBVqRQDtbadS0I/K/wQvldhZ+9iOV8wSNew2Jnu9Cd8awQUgQdhDD3vWuLoXLIejrbQDKNSVnDqLgnefT/f8v8yexcz66
+rivqmjcrKBvRR2qlN9enfuHqINuEom7vsFh6SS2KIZveOfC/yLdjp9cSzLzSdshPzBwUtl1XIGxybj7AzelCkIfaDFkUyjp
+fqbv6GFt5X6VuDS9t5efuq/MTJaqscc4AX9XUBWao+TeMgIbVcGMYJnEgR8y9fQmU3XMY2esqq2YYQT+302OcQu422KOuRP
+c7I2gvrh+fIW6PS4o4CsVAiA0VUOaZi+dxYZ9yml44xQcj1uOkpVOYSZcx+/ilIA0xGpUYeTH8nDDJ7nojC32WDrYHJUmzB
+I4FpNdSAuCg2XjzKu6ajrU+DIAbkXbbAtSIYZ12AW9zzwuwyFUCs/MrEUA5wEQbpcd9tlQpogkNvEiVxfTAXA9VmGBMFPEV
+PI09etR23mKNYhAgpHFHGRw4LrfT73wTxdiNG2BqK3HkmyQQljMtlGoIUIeky+Cj7gPeTsBnnNP1Lhr5Furmwoos0x7iv+I
+i0KemCXTrRMssX3wGFy1+a1WsqSbf/a/afr9snD6i/pgIs22wInzGx4to8t0oMlJksCr8udblPaarh37GsgwGHkp0mKIaEk
+aDuUnoQ=
+    password: AgAEwqrgcjTeLB2Wpjagv/VLjORttf19LBrmHwFK4pQmVlTIkPbiv0/rgEYGQEgrQg2cFQtJx5niikE2i
+AGhslbu3Yt8YrFa+NdoI+6QQvD1PHh/mHn1PboWAMrgS8FagHILxNShP6dNdi4D6KizyYg7IjonifmsOeH+0vFabWriNxFh
+Amf7x+XOoB61+FuEZqIXpZh9xQGVyaZgI/vAhrqXP+SbTSUhZlJKxbOtL1JZvJx8c5evEedWhNOP+X4wdQ2JQ6aOjBAVpJe
+xSrULFFMLutNdvk1VcdyHnuO5dXmtnEMQYnoRHg4sx4QOk3HiBgjjQNB1XCmVY0E68CMan1jjIXAsW0pKBwgxQrOsPe5YEL
+J7GeGKINJjSkGak6hjRBNXqp7uRIn+86h3M2Tx0CEG4418WcASFziccOwtpuuF+hIWN6uvzMWmtqCl/jeSsN9mfpAUskEnM
+uwl3RQvti9ITjpq1DRcv/2g5CSZYHH8dZ5az+pU3WN8Uj4RbS77ZSLO/+7tXC/uKQm/BBviSJJC+mRtpl5F4TtY6M9tYGsO
+15NDqJva1dhfj6MKTD6MujbWe5+oARtt296bs+TWHtM3ehZnHt95Xig+A6m1qCQHJuLvaaEptx7Z2Bluxw/h3BqwFTnpWvo
+ipSEYN8z9mXhR8QN+qDtSOk9qoRmJa6+I1qn5SmmLEZ2LUAzrWnkeLrftximLqW3ilFT+MhkbeLM=
+    username: AgAdzsmS9WNXfiiBNb55EB41Y0EziwSbX0LjGHUNok/WooDM3nApbRg+24MtE2+oWWh39mh7KNqbyG9hF
+k6ib2QECV8WaHDfEBwC3kEWCqrO2C+5SIF30SiroM0qMMDS4j/9f7VFsuL1iqbD/r4t8xfwWD+d72f5CSAuGFKnAycWxzIH
+0c6rOWkE+Sjv36GSh26sRiEiy664NKF9IMi2diddV5TdykHFFcydotmOPmQ7cK+CmXxI/kzfSgDpuiHh6DBDem8rHnB7aK4
+P/v4djxaTM7JwaVbfSvMh3iDNSkMm4I2ZoaBnDzMn6oWZORphmNfDauzCTzoeHTHT0imBrZEOJ8C0242uaoVcUw/Apqb+TO
+0ohpvBOm5o83inVtqUJr+31vtLoUMexZdZWy3DzZ7Rg5MPauO4TU+0NmMf0VYse9Tx9RFp55t/yDIH+luAKbN9ZzrMDPprN
+lbpYkaj32odoKzZGHYpih2OBTcxt+D+bz2oPYPWuutGNvLNKNlTqZWSoD/1jEMrvj/qkgfMzrMm1T+hSHGe8Wfl2snUldES
+yAzCAhPZ+SUdjG2hWpwK0/migfExNVqlf+H/LhdEbtshBbjoX71j81mh5ayTbGKEZvOIlBNOOglh1XDSiDtarU/WJz41/f4
+Zexfb4wYeF1hlee6M4uWdX6LRn8tno1g9SoRVsTAdgzI6k0pvS+wTAdWe9LxZ/qK/8P28wA==
+  template:
+    data: null
+    metadata:
+      creationTimestamp: null
+      name: mysql-credentials
+      namespace: default
+    type: Opaque
